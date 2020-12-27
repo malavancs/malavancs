@@ -11,6 +11,8 @@ import { ProjectComponent } from './project/project.component';
 import { ContactComponent } from './contact/contact.component';
 import { CardDetailsComponent } from './card-details/card-details.component';
 import { PageTitleComponent } from './page-title/page-title.component';
+import { IntroComponent } from './intro/intro.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -22,11 +24,13 @@ import { PageTitleComponent } from './page-title/page-title.component';
     ProjectComponent,
     ContactComponent,
     CardDetailsComponent,
-    PageTitleComponent
+    PageTitleComponent,
+    IntroComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
