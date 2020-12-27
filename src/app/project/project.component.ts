@@ -8,7 +8,7 @@ import projectList from '../../assets/data/projects.json';
 })
 export class ProjectComponent implements OnInit {
 
-  public title = 'Projects';
+  public title = '👨‍💻 PROJECTS';
   public skillList = projectList;
   constructor() { }
 

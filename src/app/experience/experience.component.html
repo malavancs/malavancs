@@ -1,0 +1,7 @@
+<app-layout [title]="title">
+    <div class="skills">
+        <div *ngFor="let e of experienceList">
+            <app-experience-card [name]="e.name" [domain]="e.domain" [role]="e.role" [location]="e.location" [period]="e.period" [description]="e.description"></app-experience-card>
+        </div>
+    </div>
+</app-layout>

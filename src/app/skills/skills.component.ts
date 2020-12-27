@@ -7,7 +7,7 @@ import skillList from '../../assets/data/skills.json';
 })
 export class SkillsComponent implements OnInit {
 
-  public title = 'SKILL-SET';
+  public title = '🛠 SKILL SET';
   public skillList = skillList;
   constructor() { }
 

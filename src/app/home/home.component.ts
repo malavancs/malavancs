@@ -16,6 +16,8 @@ export class HomeComponent implements OnInit {
   projectDiv!: ElementRef;
   @ViewChild('contact')
   contactDiv!: ElementRef;
+  @ViewChild('experience')
+  experience!: ElementRef;
 
   constructor() { }
 
@@ -43,6 +45,9 @@ export class HomeComponent implements OnInit {
         break;
       case 'contact':
         this.contactDiv.nativeElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        break;
+      case 'experience':
+        this.experience.nativeElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
         break;
     }
   }

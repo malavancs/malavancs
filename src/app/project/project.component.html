@@ -1,8 +1,8 @@
-<div class="root">
-    <app-page-title [title]="title"></app-page-title>
+<app-layout [title]="title">
     <div class="skills">
         <div *ngFor="let skill of skillList">
-            <app-card-details [name]="skill.name" [description]="skill.description" [link]="skill.link" [imageSource]="skill.imageSource" ></app-card-details>
+            <app-card-details [name]="skill.name" [description]="skill.description" [link]="skill.link"
+                [imageSource]="skill.imageSource"></app-card-details>
         </div>
     </div>
-</div>
+</app-layout>

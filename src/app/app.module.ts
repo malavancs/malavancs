@@ -13,6 +13,9 @@ import { CardDetailsComponent } from './card-details/card-details.component';
 import { PageTitleComponent } from './page-title/page-title.component';
 import { IntroComponent } from './intro/intro.component';
 import { FormsModule } from '@angular/forms';
+import { LayoutComponent } from './layout/layout.component';
+import { ExperienceComponent } from './experience/experience.component';
+import { ExperienceCardComponent } from './components/experience-card/experience-card.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +29,9 @@ import { FormsModule } from '@angular/forms';
     CardDetailsComponent,
     PageTitleComponent,
     IntroComponent,
+    LayoutComponent,
+    ExperienceComponent,
+    ExperienceCardComponent,
   ],
   imports: [
     BrowserModule,
