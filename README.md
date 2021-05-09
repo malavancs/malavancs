@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-- 🔭 I’m currently working on Python, Angular 
+- 🔭 I’m currently working on Python, Angular, NodeJS
 - 🌱 I’m currently learning ReactJS and Flutter
 - 👯 I’m looking to collaborate on ReactJS and python related project
 - 🤔 I’m looking to help on Open source projects
